@@ -1,6 +1,8 @@
 # Projeto-Calculadora-JS
+Meu primeiro Projeto com JS, calculadora JavaScript
 
-função  calculadora ( ) {
+
+        função  calculadora ( ) {
     const  operação  =  Number ( prompt ( 'Escolha uma operação:\n 1 - Soma(+)\n 2 - subtração (-)\n 3 - multiplicação (*)\n 4 - Divisão real (/)\n 5 - Divisão inteira (%)\n 6 - potenciação(**)' ) ) ;
     if  ( ! operação  ||  operação  >=  7 ) {
         alerta ( 'Erro - Operação Inválida' ) ;
@@ -8,9 +10,7 @@ função  calculadora ( ) {
     } senão  {
         let   n1  =  Número ( prompt  ( 'Insira o Primeiro Valor' ) ) ;
         let   n2  =  Número ( prompt  ( 'Insira o Segundo Valor' ) ) ;
-        deixe   Resultado ;
-
-        se ( ! n1  ||  ! n2 ) {
+        deixe   Resultado ;se ( ! n1  ||  ! n2 ) {
             alert ( 'Erro - Parâmetros inválidos!' )
             calculadora ( ) ;
 
